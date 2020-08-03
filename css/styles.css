@@ -1,0 +1,12 @@
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {display: block;}
+
+
+.top-center{
+    text-align: center;
+    font-size: 15px;
+}
+
+.top-sh{
+  padding-left: 10px;
+}

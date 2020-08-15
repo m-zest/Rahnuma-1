@@ -246,7 +246,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<h2><span>Testimonials</span></h2>
+					<h2><span>Success Stories</span></h2>
 				</div>
 			</div>
 			<div class="row">
@@ -256,27 +256,45 @@
 							<div class="item">
 								<div class="testimony-slide active text-center">
 									<div class="user" style="background-image: url(images/person1.jpg);"></div>
-									<span>Mary Walker<br><small>Students</small></span>
+									<span>Sakina Asaria<br><small>Student</small></span>
 									<blockquote>
-										<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+										<p>&ldquo;Sakina Asaria, a 10th grade student had scored 44% in her 9th grade. The mentors helped her to achieve a good percentage in her boards by guiding her throughout the program. They provided her with thee solutions to the query, working on her weak areas as well as designing a perfect study plan. She worked hard and converted it to 70% in her board exams.&rdquo;</p>
 									</blockquote>
 								</div>
 							</div>
 							<div class="item">
 								<div class="testimony-slide active text-center">
 									<div class="user" style="background-image: url(images/person2.jpg);"></div>
-									<span>Mike Smith<br><small>Students</small></span>
+									<span>Fatima<br><small>Student</small></span>
 									<blockquote>
-										<p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+										<p>&ldquo;A student named Fatima who already was a topper in her class since childhood, started mentoring her friends and colleagues after 3 months of pursuing the program. She was already a keen student but the mentorship program helped her identify her strengths and hone her skills further more. Regular interaction with the mentors and time spent with them helped her to gain experience.&rdquo;</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<div class="user" style="background-image: url(images/person2.jpg);"></div>
+									<span>Shreya<br><small>Student</small></span>
+									<blockquote>
+										<p>&ldquo;Shreya, an extremely shy mentee had developed so much that she did not have to take any tuitions hence forth the program. The mentorship program helped her to become an efficient planner and moulded her in such a way that she was able to make her own daily plans and self study plans. She started to study on her own and analyse the time to plan her day accordingly.&rdquo;</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<div class="user" style="background-image: url(images/person2.jpg);"></div>
+									<span>Muhammad Ali<br><small>Student</small></span>
+									<blockquote>
+										<p>&ldquo;Muhammad Ali was a student who did not used to study at all. He was a very notorious boy but through the program, he transformed a lot. Mentors helped him to get accustomed the academic curriculum in addition to managing his activity times. Whenever he used to face problems while studying, the mentors were round for him. After around 2 year of the program, he became so curious about studies that he was always the first to raise his hands to answer a question in the whole class. &rdquo;</p>
 									</blockquote>
 								</div>
 							</div>
 							<div class="item">
 								<div class="testimony-slide active text-center">
 									<div class="user" style="background-image: url(images/person3.jpg);"></div>
-									<span>Rita Jones<br><small>Teacher</small></span>
+									<span>Sanjana<br><small>Student</small></span>
 									<blockquote>
-										<p>&ldquo;Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+										<p>&ldquo;Sanjana, an immensely talented student used to fear Physics. During the course of the mentorship, she was taught by the mentors about the concepts of physics and they helped her to get the hold of it. Slowly, she began to discover her weaknesses and started working on those. After the 6th month of the program, she became curious about the topics in physics and fell in love with it.&rdquo;</p>
 									</blockquote>
 								</div>
 							</div>

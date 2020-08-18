@@ -58,23 +58,25 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-img-holder" style="background-image: url(images/project-1.jpg);"></a>
+						<a href="#" class="blog-img-holder" style="background-image: url(images/project-3.jpg);"></a>
 						<div class="blog-text">
 							<h3><a href="#">Healty Lifestyle &amp; Living</a></h3>
 							<span class="posted_on">March. 15th</span>
 							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p><a href="#">Read More</a></p>
 						</div> 
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-img-holder" style="background-image: url(images/project-2.jpg);"></a>
+						<a href="#" class="blog-img-holder" style="background-image: url(images/project-3.jpg);"></a>
 						<div class="blog-text">
-							<h3><a href="#">Healty Lifestyle &amp; Living</a></h3>
+							<h3><a href="#" id="blog1" >Healty Lifestyle &amp; Living</a></h3>
 							<span class="posted_on">March. 15th</span>
 							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p><a href="blogs/blog1.php">Read More</a></p>
 						</div> 
 					</div>
 				</div>
@@ -86,6 +88,7 @@
 							<span class="posted_on">March. 15th</span>
 							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p><a href="#">Read More</a></p>
 						</div> 
 					</div>
 				</div>

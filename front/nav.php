@@ -30,17 +30,18 @@
 							<li><a href="index.php">Home</a></li>
 							<li><a href="courses.php">Courses</a></li>
 							<li><a href="teacher.php">Teacher</a></li>
+							<li class="has-dropdown">
+								<a href="blog.php">Blog</a>
+								<ul class="dropdown">
+									<li><a href="#blog1" href="#">Identify your why</a></li>
+									<li><a href="#">Choose a career</a></li>
+									<li><a href="#">Plan for short term and long term goals</a></li>
+									<li><a href="#">Build skills?</a></li>
+									<li><a href="#">Develop problem solving skills?</a></li>									
+								</ul>
+							</li>
 							<li><a href="about.php">About</a></li>
 							<!-- <li><a href="pricing.php">Pricing</a></li> -->
-							<!-- <li class="has-dropdown">
-								<a href="blog.html">Blog</a>
-								<ul class="dropdown">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
-								</ul>
-							</li> -->
 							<li><a href="contact.php">Contact</a></li>
 							<li class="btn-cta"><a href="#"><span>Login</span></a></li>
 							<li class="btn-cta"><a href="#"><span>Create a Course</span></a></li>

@@ -7,7 +7,6 @@
 				<div class="row">
 					<div class="col-xs-12 text-right">
 						<p class="site">www.VEF.com</p>
-						<!-- <p class="num" id="google_translate_element"></p> -->
 						<p class="num">Call: +01 123 456 7890</p>
 						<ul class="fh5co-social">
 							<li><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -41,7 +40,6 @@
 								</ul>
 							</li>
 							<li><a href="about.php">About</a></li>
-							<!-- <li><a href="pricing.php">Pricing</a></li> -->
 							<li><a href="contact.php">Contact</a></li>
 							<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
 							<li class="btn-cta"><a href="#"><span>Create a Course</span></a></li>

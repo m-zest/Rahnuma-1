@@ -8,14 +8,12 @@
     else{
         include 'partial/_dbconnect.php';
         $bid = $_GET['id']; 
-        // echo $bid; exit;
+
         $sql = "select * from blog where id='$bid'";
         $result = mysqli_query($conn, $sql);
-        // echo $result; exit;
-        // $row = mysqli_fetch_array($result);
-        // echo $row; exit;
+
         if($_SERVER["REQUEST_METHOD"] == "POST"){
-            // echo $row; exit;
+
             $blog_title = $_POST['blog_title'];
             $srt_dec = $_POST['blog_title'];
             $blog = $_POST['blog'];
@@ -24,7 +22,7 @@
             $result = mysqli_query($conn, $sql);
             if ($result == 1){
                 echo 'done';
-                // header("location:dashboard.php");
+                header("location:dashboard.php");
             }
             else{
                 echo "error";

@@ -7,11 +7,11 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
         $cpassword = $_POST['cpassword'];
-        $password = md5($password);
+        $password = md5($password);// converting to md5 hash code.
         $cpassword = md5($cpassword);
         $exists = false;
         if(($password == $cpassword) && $exists == false){
-            $sql = "INSERT INTO `admin_user` (`email`, `password`) VALUES ('$email', '$password')";
+            $sql = "INSERT INTO `admin_user` (`email`, `password`) VALUES ('$email', '$password')";//insert query 
             $result = mysqli_query($conn, $sql);
             if ($result == 1){
                 header("location:login.php");
@@ -42,11 +42,8 @@
 
         <div class="card" style="width: 18rem;">
         <div class="card-body">
-            <!-- <h5 class="card-title">Login</h5> -->
             <h6 class="card-subtitle mb-2 text-muted">Sign Up</h6>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
             <form class="form-signin" method="POST" action="signup.php">
-                <!-- <img class="mb-4" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
                 <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
                 <label for="inputEmail" class="sr-only">Email address</label>
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required autofocus>
@@ -56,18 +53,12 @@
                 <br>
                 <label for="confirmPassword" class="sr-only">Confirm Password</label>
                 <input type="password" id="confirmPassword" class="form-control" placeholder="confirm Password" name="cpassword" required>
-                <!-- <div class="checkbox mb-3">
-                    <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div> -->
+                </div>
                 <br>
                 <button class="btn btn-lg btn-danger btn-block" type="submit">Sign in</button>
-                <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p> -->
-            </form>
+                </form>
             <a href="login.php" class="card-link">Sign IN</a>
-            <!-- <a href="#" class="card-link">Another link</a> -->
-        </div>
+            </div>
         </div>
 
 

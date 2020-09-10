@@ -1,12 +1,13 @@
 <?php
   session_start();
-  include 'partial/_dbconnect.php';
-
+  include 'partial/_dbconnect.php'; //Databse connection has been define in this file.
+    //here Session is set or not is checking.
   if(!(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] = "ok")) {
     header("Location: login.php");
     exit;
 }
-
+// this funtion i am having douth right now whether this is working or not but what it is doing is I am seting the limit
+// for the table row if table row exceeds the limit it will create an another page for table.
 $limit = 10;  
 if (isset($_GET["page"])) {
 	$page  = $_GET["page"]; 
@@ -15,7 +16,7 @@ if (isset($_GET["page"])) {
 	$page=1;
 	};  
 $start_from = ($page-1) * $limit;  
-$result = mysqli_query($conn,"SELECT * FROM blog ORDER BY id ASC LIMIT $start_from, $limit");
+$result = mysqli_query($conn,"SELECT * FROM blog ORDER BY id ASC LIMIT $start_from, $limit");// database query.
 ?>
 
 
@@ -70,7 +71,7 @@ $result = mysqli_query($conn,"SELECT * FROM blog ORDER BY id ASC LIMIT $start_fr
                 </thead>
                 <tbody>
                 <?php 
-                while($row = mysqli_fetch_array($result))
+                while($row = mysqli_fetch_array($result)) //for extacting data from the row {$row will give the array}
                     {?>
                     <tr>
                     <td><?php echo $row['id']; ?></td>

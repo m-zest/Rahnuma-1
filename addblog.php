@@ -13,7 +13,7 @@
         $row = mysqli_fetch_array($result);
         $id = $row['id'];
         if($_SERVER["REQUEST_METHOD"] == "POST"){
-            // echo $row; exit;
+
             $blog_title = $_POST['blog_title'];
             $srt_dec = $_POST['blog_title'];
             $blog = $_POST['blog'];

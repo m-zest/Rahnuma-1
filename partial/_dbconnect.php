@@ -4,13 +4,10 @@
     $password = "";
     $database = "rehnuma";
 
-    $conn = mysqli_connect($server, $username, $password, $database);
+    $conn = mysqli_connect($server, $username, $password, $database); // database connection establishment.
 
     if(!$conn){
-    //     echo "success";
-    
-    // }
-    // else{
+
         die ("Error :". mysqli_connect_error());
     }
 

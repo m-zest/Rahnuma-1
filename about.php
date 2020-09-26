@@ -24,13 +24,10 @@
 	<div id="fh5co-about">
 		<div class="container">
 			<div class="col-md-6 animate-box">
-<<<<<<< HEAD
 				<span>About Our Work</span>
 				<h2>Welcome to Rahnuma</h2>
-=======
 				<span>About Our University</span>
 				<h2>Welcome to Education Website</h2>
->>>>>>> 8331e014b037b86b42ab227f01382d3d12b0acde
 				<p>The Urdu word Rahnuma means a person who guides someone. Rahnuma mentorship program focuses mainly on
 				 development of quantitative and qualitative education. This program is for those students who are seeking
 				  help with career planning and daily academic planning. Nowadays, students are having issues with time
